@@ -1,4 +1,4 @@
-from dressing_sd.pipelines.IMAGDressing_v1_pipeline import IMAGDressing_v1
+from dressing_sd.pipelines import HARVTON
 import os
 import torch
 
