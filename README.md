@@ -5,12 +5,10 @@ vton-hd：https://www.kaggle.com/datasets/marquis03/high-resolution-viton-zaland
 Cultral-vton：we constructed a small dataset called Cultural-VTON, which includes 600 images of ethnic clothing.
 
 ## How to train
-python train.py --pretrained_model_name --_model_path  --ip-adapter --image_encoder_path --dataset_json_path --train_batch_size 
+python train.py
 
 ## How to test
-    parser.add_argument('--path1', type=str, help='path11')
-    parser.add_argument('--path2', type=str, help='path22')
-    parser.add_argument('--path3', type=str, help='path33')
+python test.py
 
 ## requirements
 ```py
